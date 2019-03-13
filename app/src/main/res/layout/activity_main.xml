@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etUserInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type Info To Broadcast"/>
+
+    <Button
+        android:id="@+id/btnSendBroadcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click To Send"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnSendBroadcastLocal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click To Send Local"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnSendBroadcastWithPerm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click To Send Perm"
+        android:onClick="onClick"/>
+
+
+</LinearLayout>
